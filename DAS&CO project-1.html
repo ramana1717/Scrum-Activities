@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head
+        {
+            background-color: black;
+            height: 100px;
+        }
+        #logo
+        {
+            width: 5%;
+            margin-left: 20px;
+            margin-top: 18px;
+        }
+        #home
+        {
+            width: 5%;
+            margin-left: 1070px;
+            margin-top: -85px;
+        }
+        #aaaaa{
+            margin-top: -65px;
+        }
+        .menu {
+            /* position: absolute; */
+            width: 35px;
+            height: 5px;
+            background-color:white;
+            margin: 6px 0;
+            margin-left:1170px;
+            
+            
+            }
+        #search
+        {
+            position: absolute;
+            width: 50%;
+            padding: 14px;
+            margin-left: 400px;
+            margin-top: -55px;
+            }
+        .button
+        {
+            border-radius: 5px;
+            font-size: xx-large;
+            margin-top: 30px;
+        } 
+        .bg
+        {
+            background-color: lightgray;
+        } 
+        * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  height: 10px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+  font-family: arial;
+  margin-left: 0;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.card2 {
+    position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+  font-family: arial;
+  margin-left: 450px;
+  margin-top: -480px;
+  
+}
+
+.price2 {
+  color: grey;
+  font-size: 22px;
+}
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card2 button:hover {
+  opacity: 0.7;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+  font-family: arial;
+  margin-left: 900px;
+  margin-top: -470px;
+  
+}
+
+.price3 {
+  color: grey;
+  font-size: 22px;
+}
+
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card3 button:hover {
+  opacity: 0.7;
+}
+    </style>
+</head>
+<body>
+    <div id="head">
+    <img src="C:\Users\raman\OneDrive\Desktop\1700124003971.jpg" id="logo">
+        <form>
+            <input type="text" placeholder="Search..." id="search">
+        </form>
+    <img src="C:\Users\raman\OneDrive\Desktop\WhatsApp Image 2023-11-16 at 19.07.44_6f10ab08.jpg" id="home">
+    <div id="aaaaa">
+    <div class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div>
+    </div>
+    </div>
+    
+    <div id="body">
+        <pre class="bg">
+              <button class="button" >FASHION</button>             <button class="button">ACCESSORIES</button>             <button class="button">GADGETS</button>             <button class="button">GROCERY</button>
+        </pre>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+         
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzcED-w8RFgcVMDji1nnTa4lJrOiDzc6-niQ&usqp=CAU" style="width:100%">
+         
+        </div>
+        
+        <div class="mySlides fade">
+         
+          <img src="https://www.shutterstock.com/image-vector/discount-banner-shape-special-offer-260nw-1467549638.jpg" style="width:100%">
+         
+        </div>
+        
+        <div class="mySlides fade">
+          <img style="width: 100%;" src="https://st4.depositphotos.com/12985656/24190/i/450/depositphotos_241907032-stock-photo-top-view-watches-lipstick-earrings.jpg">
+          
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            <div class="card">
+                <img src="https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw3039bfb3/1.JBL_LIVE_PRO_2_Product%20Image_Hero_Black.png?sw=300&sh=300" alt="tws" style="width:100%">
+                <h1>TWS</h1>
+                <p class="price">RS.1500.00</p>
+                <p><button>BUY NOW</button></p>
+              </div>
+              <div class="card2">
+                <img src="https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8d824f00/01.JBL_Live_770NC_Product%20Image_Hero_Black.png?sw=300&sh=300" alt="wireless headphone" style="width:100%">
+                <h2>WIRELESS HEADPHONE</h2>
+                <p class="price2">RS.3000.00</p>
+                <p><button>BUY NOW</button></p>
+              </div>
+              <div class="card3">
+                <img src="https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwed91b00f/C100SI_black_dvHAMaster.png?sw=300&sh=300" alt="wired headphone" style="width:100%">
+                <h2>WIRED HEADPHONE</h2>
+                <p class="price3">RS.1000.00</p>
+                <p><button>BUY NOW</button></p>
+              </div>
+            
+</body>
+</html>
